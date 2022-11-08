@@ -13,7 +13,6 @@ fs.readdir(secretPath, { withFileTypes: true }, (error, dirList) => {
           }
           newNameArr.push(nameArr[i]);
         }
-        i;
         console.log(`${newNameArr.join()} - ${path.extname(item.name).slice(1)} - `);
       }
     });
